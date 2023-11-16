@@ -1,0 +1,170 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Spartan:wght@100;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    color: #54575A;
+    background: linear-gradient(180deg, #FFF 0%, #dfe0e0 49.91%, #aaa7a6 94.19%);
+    font-family: lato, sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    width: 90rem;
+    height: 86rem;
+    /* min-height: 100vh; */
+    margin: auto
+}
+
+.title {
+    width: 458px;
+    height: 135px;
+    top: 200px;
+    left: 221px;
+    position: absolute; 
+    font-family: Lato;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 67.5px; /* 105.469% */
+}
+
+.text {
+    position: absolute;
+    width: 25rem;
+    height: 8rem;
+    top: 23rem;
+    left: 221px;
+    color: #54575A;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px; 
+}
+
+.main-image-conatainer {
+    position: absolute;
+    width: 33rem;
+    height: 309.27px;
+    top: 13rem;
+    margin-left: 43rem;
+}
+
+.apple-store-btn {
+    position: absolute;
+    width: 9rem;
+    height: 46.28px;
+    top: 31rem;
+    left: 14rem;
+}
+
+.apple-store-btn > img {
+    width: 9rem;
+    height: 46.28px;
+}
+
+.google-store-btn {
+    position: absolute;
+    width: 9rem;
+    height: 46.28px;
+    top: 31rem;
+    left: 381.81px;
+}
+
+.google-store-btn > img {
+    width: 9rem;
+    height: 46.28px;
+}
+
+.brand-img {
+    position: absolute;
+    width: 12.0625rem;
+    height: 2.97738rem;
+    top: 3.2rem;
+    left: 14rem;
+  
+}
+
+.profile-img {
+    position: absolute;
+    height: 28rem;
+    top: 43rem;
+    left: 45rem;
+
+}
+
+.orders-img {
+    position: absolute;
+    top: 57rem;
+    left: 29rem;
+    right: 46rem;
+    height: 29rem;
+
+}
+
+.home-img {
+   position: absolute;
+   top: 57rem;
+   left: 61rem;
+   /* right: 14rem; */
+}
+
+.cart-img {
+  position: absolute;
+  top: 72rem;
+  left: 13rem;
+  right: 62.2rem;
+  height: 14rem;
+
+}
+
+.product-img {
+  position: absolute;
+  top: 72rem;
+  left: 45rem;
+  right: 30rem;
+  height: 14rem;
+
+}
+
+/* Backgrund Togggle */
+.background-toggles {
+    position: absolute;
+    right: 150Px;
+    top: 70px;
+    display: flex;
+}
+
+.background-toggles > div {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Backgrounds */
+.background-1 {
+    background-color: #f2f2f2;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%239C92AC' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.background-2 {
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);
+    background: linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);
+    
+}
+
+.background-3 {
+    background: #3E5151;
+    background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);
+    background: linear-gradient(to left, #DECBA4, #3E5151);
+
+}
